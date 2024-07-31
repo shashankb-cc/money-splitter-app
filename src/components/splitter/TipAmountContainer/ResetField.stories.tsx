@@ -1,5 +1,5 @@
 import { StoryFn, Meta } from "@storybook/react";
-import ResetField from "./ResetField";
+import ResetField from "./TipAmountField";
 
 export default {
   title: "Components/ResetField",

@@ -1,0 +1,33 @@
+.selectContainer {
+  margin-right: 66px;
+  width: 100%;
+  max-width: 526px;
+  margin-top: 1.5%;
+}
+
+/* Default: Desktop monitors, 1501px and up */
+
+/* Laptop */
+@media (max-width: 1500px) {
+  .selectContainer {
+    max-width: 100%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1000px) {
+  .selectContainer {
+    width: 100%;
+    margin: 30px;
+  }
+}
+
+/* Phones */
+@media (max-width: 550px) {
+  .selectContainer {
+    max-width: 90%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+

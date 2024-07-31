@@ -1,5 +1,5 @@
 import { StoryFn, Meta } from "@storybook/react";
-import SelectTip from "./SelectTip";
+import SelectTip from "./SelectTipContainer";
 
 export default {
   title: "Components/SelectTip",
