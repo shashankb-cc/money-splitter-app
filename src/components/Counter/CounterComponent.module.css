@@ -1,0 +1,59 @@
+
+body{
+  background-color: grey;
+  flex:1;
+  justify-content: center;
+}
+.mainContainer {
+    text-align: center;
+    border: 1px solid gold;
+    background-color: cornsilk;
+    border-radius: 20px;
+    /* box-shadow:  5px 5px 5px goldenrod; */
+  }
+  .counterSet {
+    display: inline-block;
+    margin: 20px;
+  }
+  .btn {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .green {
+    background-color: rgb(180, 132, 241);
+    color: white;
+  }
+  .red {
+    background-color: rgb(219, 145, 118);
+    color: white;
+  }
+  .value {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 10px;
+    color: cadetblue;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .valueInput {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 10px;
+    width: 150px;
+    text-align: center;
+  }
+  .totalValueTitle{
+    color: cadetblue;
+  }
+  .totalValueTitle span{
+    color: cadetblue;
+  }
+  

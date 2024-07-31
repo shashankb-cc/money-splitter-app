@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  background-color: #0D686D;
+  line-height: 3.2rem;
+  letter-spacing: 10%;
+  border-radius: 7px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+.widget-container {
+  position: relative;
+  padding: 24px 32px;
+  font-size: 1rem;
+  margin-top: 48px;
+  margin-bottom: 64px;
+  margin-left: 20px;
+  border-left: 3px solid;
+  border-radius: 10px 50px 50px;
+  max-width: 850px;
+}
+
+.widget-icon {
+  position: absolute;
+  left: 0px;
+  /* transform: translate(-50%, -50%); */
+  top: -35px;
+  left: -30px;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+}
+
+.widget-title {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+.error {
+  border-color: red;
+  background-color: white;
+  color: red;
+}
+.warning {
+  border-color: gold;
+  color: gold;
+  background-color: white;
+}
+.info {
+  border-color: blue;
+  background-color: white;
+  color: blue;
+}

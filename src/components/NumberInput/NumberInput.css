@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html,
+body {
+  font-family: "Space Mono", monospace;
+  color: #5d6b6c;
+}
+
+.numberInputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.inputContainer.error {
+  border: 2px solid red;
+}
+ .numberInputField.error {
+  border: 2px solid red;
+} 
+.inputContainer:hover:not(.error) {
+  border: 1px solid black;
+}
+.inputContainer .icon {
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  pointer-events: none;
+}
+
+.numberInputField {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 8px 20px;
+  padding-left: 2.5rem;
+  padding-right: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Space Mono", monospace;
+  text-align: end;
+  color: #5d6b6c;
+  min-height: 64px;
+  background-color: #f3f8fb;
+  width: 100%;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+.numberInputField::-webkit-inner-spin-button,
+.numberInputField::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.numberInputLabel {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: -2rem;
+  left: 0.5rem;
+}
+
+/* .container {
+  background-color: white;
+  color: #5d6d6c;
+  --error-color: hsl(13deg, 31%, 58%);
+  margin: 0 1px;
+}
+.inputContainer {
+  position: relative;
+}
+.numberInput {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 8px 20px;
+  text-align: right;
+  width: 100%;
+  display: block;
+  background: #f3f8fb;
+  border-radius: 6px;
+  color: inherit;
+  outline: none;
+  border: 2px solid hsl(172deg 31% 52% / 0%);
+}
+.numberInput:focus-visible {
+  border: 2px solid hsl(172deg 31% 52% / 100%);
+}
+.label {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.1rem;
+  margin-bottom: 6px;
+  display: block;
+}
+.iconContainer {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  bottom: 0;
+  display: grid;
+  place-content: center;
+}
+.errorMessage {
+  min-height: 1.5rem;
+  color: var(--error-color);
+}
+.error {
+  border: 2px solid var(--error-color);
+}
+.error:focus-visible {
+  border: 2px solid var(--error-color);
+}
+ Chrome, Safari, Edge, Opera 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+} */

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.price-div {
+  display: grid;
+  align-items: center;
+
+  margin-bottom: 64px;
+
+  grid-template-columns: 1fr auto;
+  font-family: "Space Mono", monospace;
+}
+
+.price {
+  justify-self: end;
+  color: #2cc0ad;
+  line-height: 4.4rem;
+  font-size: 48px;
+}
+.tip-amount {
+  justify-self: start;
+  color: #feffff;
+  font-size: 20px;
+  line-height: 1.8rem;
+}
