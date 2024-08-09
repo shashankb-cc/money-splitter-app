@@ -1,5 +1,5 @@
 import { StoryFn, Meta } from "@storybook/react";
-import ResetDiv from "./ResetDiv";
+import ResetDiv from "./BillInfoAndReset";
 
 export default {
   title: "Components/ResetDiv",
