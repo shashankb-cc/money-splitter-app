@@ -1,8 +1,7 @@
 // src/components/splitter/TipInputForm/TipInputForm.tsx
 
-import NumberInput from '../NumberInput';
-import SelectTip from '../SelectTipContainer';
-import styles from './TipInputForm.module.css';
+import NumberInput from "../NumberInput";
+import SelectTip from "../SelectTipContainer";
 
 interface TipInputFormProps {
   billValue: number;
@@ -28,7 +27,7 @@ export function TipInputForm({
   peopleError,
 }: TipInputFormProps) {
   return (
-    <div className={styles.selectContainer}>
+    <div className="w-full max-w-[526px] mt-[1.5%] mr-[66px] lg:w-full lg:mr-[2rem] lg:my-8 sm:max-w-[80%] max-sm:mx-auto max-sm:mb-9">
       <NumberInput
         value={billValue}
         typeofIcon="dollar"
